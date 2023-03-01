@@ -1,0 +1,29 @@
+{
+    "name": "timrutte/laminas-log-processor-ip-address",
+    "description": "Log processor to add the ip address to the logger",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "laminas",
+        "log",
+        "logging"
+    ],
+    "homepage": "https://www.timrutte.de",
+    "support": {
+        "issues": "https://github.com/timrutte/laminas-log-processor-ip-address/issues",
+        "source": "https://github.com/timrutte/laminas-log-processor-ip-address",
+        "rss": "https://github.com/timrutte/laminas-log-processor-ip-address/releases.atom"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": ">=7.0",
+        "laminas/laminas-http": "^2.18",
+        "laminas/laminas-log": "^2.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "TimRutte\\Laminas\\Log\\": "src/"
+        }
+    }
+}
